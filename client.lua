@@ -11,7 +11,7 @@ Citizen.CreateThread(function()
                 Wait(100)
             end
 
-            samueljackson = CreatePed("CS_SDDoctor_01", -1806.127, -429.076, 158.833, 244.099, true, true)
+            samueljackson = CreatePed("CS_SDDoctor_01", -1806.127, -429.076, 158.833, 244.099, false, true)
             SetPedRandomComponentVariation(samueljackson, 0)
             SetBlockingOfNonTemporaryEvents(samueljackson, true)
             SetEntityInvincible(samueljackson, true)
